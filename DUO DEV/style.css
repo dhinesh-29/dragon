@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-origin: padding-box;
+}
+
+nav{background-color: rgb(71, 168, 71);
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+
+}
+ nav a{
+     color: rgb(26, 26, 140);
+     text-decoration: none;
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+ }   
+ nav ul{
+    display:flex;
+ }
+ li{
+    padding: 15px;
+    list-style: none;
+ }
+ nav img{
+    margin-right: 1000px;
+ }
+@media(max-width:768px){
+    nav{
+        position: relative;
+    }
+
+}
+ nav ul{
+    flex-direction: column;
+   background-color: black;
+   top: 15px;
+ }
+
+
+
+
